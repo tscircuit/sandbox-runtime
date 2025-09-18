@@ -1,0 +1,13 @@
+{
+  "name": "sandbox-runtime",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tscircuit": "^0.0.657"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
