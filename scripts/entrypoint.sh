@@ -3,5 +3,9 @@
 # /add_file
 # /start (instead of running main thing directly)
 
+echo "Running tsci build"
+
+set -x
+
 # MAIN THING
 bunx tsci build
